@@ -31,7 +31,7 @@
         android:id="@+id/tv_score_game_1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Score :0"
+        android:text="Defeated enemies :0"
         android:textColor="@color/add_colour_the_most_bright"
         android:textSize="26sp" />
 
