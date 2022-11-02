@@ -7,169 +7,17 @@
     android:layout_height="match_parent"
     tools:context=".onlygame.PlayGameActivity">
 
-
-    <androidx.constraintlayout.widget.Guideline
-        android:id="@+id/guideline_hor_30"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        app:layout_constraintGuide_percent="0.30" />
-
-
-    <androidx.constraintlayout.widget.Guideline
-        android:id="@+id/guideline_hor_10"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        app:layout_constraintGuide_percent="0.10" />
-
-    <androidx.constraintlayout.widget.Guideline
-        android:id="@+id/guideline_hor_05"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        app:layout_constraintGuide_percent="0.05" />
-
-    <androidx.constraintlayout.widget.Guideline
-        android:id="@+id/guideline_hor_20"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        app:layout_constraintGuide_percent="0.20" />
-
-
-    <androidx.constraintlayout.widget.Guideline
-        android:id="@+id/guideline_hor_13"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        app:layout_constraintGuide_percent="0.13" />
-
-    <androidx.constraintlayout.widget.Guideline
-        android:id="@+id/guideline_hor_95"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        app:layout_constraintGuide_percent="0.95" />
-
-    <androidx.constraintlayout.widget.Guideline
-        android:id="@+id/guideline_hor_85"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        app:layout_constraintGuide_percent="0.85" />
-
-    <androidx.constraintlayout.widget.Guideline
-        android:id="@+id/guideline_hor_50"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        app:layout_constraintGuide_percent="0.50" />
-
-    <androidx.constraintlayout.widget.Guideline
-        android:id="@+id/guideline_vert_95"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        app:layout_constraintGuide_percent="0.95" />
-
-    <androidx.constraintlayout.widget.Guideline
-        android:id="@+id/guideline_vert_05"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        app:layout_constraintGuide_percent="0.05" />
-
-    <androidx.appcompat.widget.AppCompatTextView
-        android:id="@+id/tv_title_int_facts"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:fontFamily="@font/montserrat_black"
-        android:autoSizeTextType="uniform"
-        android:gravity="center"
-        android:padding="3dp"
-        android:text="@string/app_name"
-        android:textAllCaps="true"
-        android:textColor="@color/add_colour_the_most_bright"
-        app:layout_constraintBottom_toBottomOf="@id/guideline_hor_10"
-        app:layout_constraintEnd_toStartOf="@id/btn_img_exit"
-        app:layout_constraintStart_toStartOf="@id/guideline_vert_05"
-        app:layout_constraintTop_toTopOf="@id/guideline_hor_05" />
-
-    <ImageView
-        android:id="@+id/btn_img_exit"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:src="@drawable/close"
-        app:layout_constraintBottom_toBottomOf="@id/guideline_hor_10"
-        app:layout_constraintDimensionRatio="1,1"
-        app:layout_constraintEnd_toEndOf="@id/guideline_vert_95"
-        app:layout_constraintTop_toTopOf="@id/guideline_hor_05" />
-
-
-    <ImageView
-        android:id="@+id/img_int_facts"
-        android:layout_width="250dp"
-        android:layout_height="250dp"
-        android:layout_marginTop="16dp"
-        android:padding="5dp"
-        android:src="@drawable/pizza3"
-        app:layout_constraintEnd_toEndOf="@id/guideline_vert_95"
-        app:layout_constraintStart_toStartOf="@id/guideline_vert_05"
-        app:layout_constraintTop_toBottomOf="@id/tv_title_int_facts" />
-
-
-    <ScrollView
-        android:id="@+id/scroll_v_for_text_int_facts"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:padding="2dp"
-        android:layout_marginTop="24dp"
-        app:layout_constraintBottom_toBottomOf="@id/guideline_hor_85"
-        app:layout_constraintEnd_toEndOf="@id/guideline_vert_95"
-        app:layout_constraintStart_toStartOf="@id/guideline_vert_05"
-        app:layout_constraintTop_toBottomOf="@id/img_int_facts">
-
-        <TextView
-            android:id="@+id/tv_single_int_fact"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="center"
-            android:fontFamily="@font/montserrat_black"
-            android:paddingTop="24dp"
-            android:text="Loading..."
-            android:textColor="@color/add_colour_the_most_bright"
-            android:textSize="15sp"
-            android:textStyle="italic" />
-
-    </ScrollView>
-
-    <com.google.android.material.button.MaterialButton
-        android:id="@+id/btn_next_fact"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:text="next"
-        app:layout_constraintVertical_chainStyle="packed"
-        android:textSize="20sp"
-        android:fontFamily="@font/montserrat_black"
-        app:layout_constraintBottom_toBottomOf="@id/guideline_hor_95"
-        app:layout_constraintEnd_toEndOf="@id/guideline_vert_95"
-        app:layout_constraintStart_toStartOf="@id/guideline_vert_05"
-        app:layout_constraintTop_toTopOf="@id/guideline_hor_85" />
-
-    <TextView
-        android:id="@+id/tv_dovn_text"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
-        android:text="@string/app_name_author"
-        android:textAllCaps="true"
-        android:textColor="@color/add_colour_the_most_bright"
-        android:textSize="11sp"
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/fragmentContainerView"
+        android:name="androidx.navigation.fragment.NavHostFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:defaultNavHost="true"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/guideline_hor_95" />
-
+        app:layout_constraintTop_toTopOf="parent"
+        app:navGraph="@navigation/game_nav" />
 
 
 
