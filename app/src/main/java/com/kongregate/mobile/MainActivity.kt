@@ -38,10 +38,6 @@ class MainActivity : AppCompatActivity() {
         val prefs = getSharedPreferences("ActivityPREF", MODE_PRIVATE)
         if (prefs.getBoolean("activity_exec", false)) {
 
-            //не моє, прибирати?
-//            toTestGrounds()
-//            finish()
-
             when (Hawk.get<String>(CH)) {
                 "2" -> {
                     skipMe()

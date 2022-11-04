@@ -13,7 +13,7 @@ import kotlinx.coroutines.withContext
 class MainClasApplication: Application() {
     companion object {
         const val AF_DEV_KEY = "GPct2GtaE3PvYamjPJFQRo"
-        const val jsoupCheck = " 1f5b "
+        const val jsoupCheck = " 1f5b"
         const val ONESIGNAL_APP_ID = "beb3c748-28ab-44d2-afbc-53dd6704c959"
 
         val linkFilterPart1 = "http://burning"
