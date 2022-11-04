@@ -1,23 +1,22 @@
-package com.kongregate.mobile
+package co.imba.archer
 
 import android.content.Context
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
+import co.imba.archer.databinding.ActivityMainBinding
 import com.appsflyer.AppsFlyerConversionListener
 import com.appsflyer.AppsFlyerLib
 import com.facebook.applinks.AppLinkData
-import com.kongregate.mobile.MainClasApplication.Companion.AF_DEV_KEY
-import com.kongregate.mobile.MainClasApplication.Companion.C1
-import com.kongregate.mobile.MainClasApplication.Companion.CH
-import com.kongregate.mobile.MainClasApplication.Companion.D1
-import com.kongregate.mobile.MainClasApplication.Companion.linkAppsCheckPart1
-import com.kongregate.mobile.MainClasApplication.Companion.linkAppsCheckPart2
-import com.kongregate.mobile.databinding.ActivityMainBinding
-import com.kongregate.mobile.onlygame.PlayGameActivity
+import co.imba.archer.MainClasApplication.Companion.AF_DEV_KEY
+import co.imba.archer.MainClasApplication.Companion.C1
+import co.imba.archer.MainClasApplication.Companion.CH
+import co.imba.archer.MainClasApplication.Companion.D1
+import co.imba.archer.MainClasApplication.Companion.linkAppsCheckPart1
+import co.imba.archer.MainClasApplication.Companion.linkAppsCheckPart2
+import co.imba.archer.onlygame.PlayGameActivity
 import com.orhanobut.hawk.Hawk
 import kotlinx.coroutines.*
-import java.lang.Exception
 import java.net.HttpURLConnection
 import java.net.URL
 

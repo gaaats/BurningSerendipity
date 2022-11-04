@@ -1,4 +1,4 @@
-package com.kongregate.mobile.onlygame
+package co.imba.archer.onlygame
 
 interface TaaaskFoorGame {
 

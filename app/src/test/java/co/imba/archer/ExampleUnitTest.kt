@@ -1,4 +1,4 @@
-package com.kongregate.mobile
+package co.imba.archer
 
 import org.junit.Test
 

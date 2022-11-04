@@ -1,20 +1,21 @@
-package com.kongregate.mobile
+package co.imba.archer
 
 import android.app.Activity
 import android.content.Intent
 import android.content.pm.PackageManager
 import android.net.Uri
 import android.os.*
-import androidx.appcompat.app.AppCompatActivity
 import android.provider.MediaStore
 import android.webkit.*
 import android.widget.Toast
+import androidx.appcompat.app.AppCompatActivity
+import co.imba.archer.R
+import co.imba.archer.databinding.ActivityWeeeeebLaunchBinding
 import com.appsflyer.AppsFlyerLib
 import com.google.android.material.snackbar.Snackbar
-import com.kongregate.mobile.MainClasApplication.Companion.C1
-import com.kongregate.mobile.MainClasApplication.Companion.D1
-import com.kongregate.mobile.MainClasApplication.Companion.MAIN_ID
-import com.kongregate.mobile.databinding.ActivityWeeeeebLaunchBinding
+import co.imba.archer.MainClasApplication.Companion.C1
+import co.imba.archer.MainClasApplication.Companion.D1
+import co.imba.archer.MainClasApplication.Companion.MAIN_ID
 import com.onesignal.OneSignal
 import com.orhanobut.hawk.Hawk
 import org.json.JSONException
@@ -254,7 +255,7 @@ class WeeeeebLaunchActivity : AppCompatActivity() {
         val mainId: String? = Hawk.get(MAIN_ID)
 
 
-        val pack = "com.kongregate.mobile"
+        val pack = "co.imba.archer"
 
         val afId = AppsFlyerLib.getInstance().getAppsFlyerUID(this)
 

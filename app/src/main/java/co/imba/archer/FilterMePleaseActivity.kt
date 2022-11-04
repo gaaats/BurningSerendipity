@@ -1,10 +1,11 @@
-package com.kongregate.mobile
+package co.imba.archer
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.kongregate.mobile.MainClasApplication.Companion.jsoupCheck
-import com.kongregate.mobile.onlygame.PlayGameActivity
+import co.imba.archer.R
+import co.imba.archer.MainClasApplication.Companion.jsoupCheck
+import co.imba.archer.onlygame.PlayGameActivity
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.launch

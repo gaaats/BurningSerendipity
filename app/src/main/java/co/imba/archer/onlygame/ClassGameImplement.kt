@@ -1,4 +1,4 @@
-package com.kongregate.mobile.onlygame
+package co.imba.archer.onlygame
 
 import android.content.Context
 import android.graphics.Canvas
@@ -7,8 +7,8 @@ import android.graphics.Paint
 import android.util.Log
 import android.view.MotionEvent
 import android.view.View
+import co.imba.archer.R
 import com.google.android.material.snackbar.Snackbar
-import com.kongregate.mobile.R
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.delay

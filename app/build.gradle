@@ -5,11 +5,11 @@ plugins {
 }
 
 android {
-    namespace 'com.kongregate.mobile'
+    namespace 'co.imba.archer'
     compileSdk 32
 
     defaultConfig {
-        applicationId "com.kongregate.mobile"
+        applicationId "co.imba.archer"
         minSdk 26
         targetSdk 32
         versionCode 1

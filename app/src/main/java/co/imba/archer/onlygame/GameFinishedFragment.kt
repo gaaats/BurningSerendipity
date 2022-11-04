@@ -1,13 +1,13 @@
-package com.kongregate.mobile.onlygame
+package co.imba.archer.onlygame
 
 import android.os.Bundle
-import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.appcompat.app.AlertDialog
+import androidx.fragment.app.Fragment
+import co.imba.archer.databinding.FragmentGameFinishedBinding
 import com.google.android.material.snackbar.Snackbar
-import com.kongregate.mobile.databinding.FragmentGameFinishedBinding
 
 
 class GameFinishedFragment : Fragment() {

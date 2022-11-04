@@ -1,11 +1,8 @@
-package com.kongregate.mobile.onlygame
+package co.imba.archer.onlygame
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import androidx.appcompat.app.AlertDialog
-import com.google.android.material.snackbar.Snackbar
-import com.kongregate.mobile.R
-import com.kongregate.mobile.databinding.ActivityPlayGameBinding
+import androidx.appcompat.app.AppCompatActivity
+import co.imba.archer.databinding.ActivityPlayGameBinding
 
 class PlayGameActivity : AppCompatActivity() {
     private var _binding: ActivityPlayGameBinding? = null

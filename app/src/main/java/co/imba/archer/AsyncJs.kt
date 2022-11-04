@@ -1,9 +1,9 @@
-package com.kongregate.mobile
+package co.imba.archer
 
 import android.content.Context
 import android.util.Log
-import com.kongregate.mobile.MainClasApplication.Companion.C1
-import com.kongregate.mobile.MainClasApplication.Companion.D1
+import co.imba.archer.MainClasApplication.Companion.C1
+import co.imba.archer.MainClasApplication.Companion.D1
 import com.orhanobut.hawk.Hawk
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
